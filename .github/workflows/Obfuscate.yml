@@ -30,7 +30,7 @@ jobs:
 
       - name: 下载 BPB worker.js
         run: |
-          wget -O origin.js https://github.com/leegical/demoPanel/blob/main/origin.js
+          wget -O origin.js https://github.com/leegical/demoPanel/blame/main/origin.js
 
       - name: 混淆 BPB worker.js
         run: |
